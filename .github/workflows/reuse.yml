@@ -13,4 +13,4 @@ jobs:
     steps:
       - name: Print time
         id: print
-        run: echo "Time: ${{ needs.call-workflow.outputs.current-time }}"
+        run: echo "Time was ${{ needs.call-workflow.outputs.current-time }}"
